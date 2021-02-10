@@ -1,0 +1,31 @@
+    a {
+      color:black;
+      text-decoration:none;
+    }
+    h1 {
+      font-size:50px;
+      text-align:center;
+      border-bottom: 3px solid black;
+      padding:20px;
+      margin:0;
+    }
+    #grid ol {
+      font-size: 17px;
+      width:70px;
+      border-right: 3px black solid;
+      margin:0;
+      padding:40px;
+      padding-top: 25px;
+      padding-left: 35px;
+      padding-right: 20px;
+    }
+    body {
+      margin:0;
+    }
+    #grid {
+      display: grid;
+      grid-template-columns: 150px 1fr;
+    }
+    #gridtext {
+      padding-right: 20px;
+    }
